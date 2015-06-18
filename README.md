@@ -1,5 +1,4 @@
-# onlineWarehouse
-Online Data Warehouse
+# Online Data Warehouse - Web Interface
 
 Web Interface for the following:
 
