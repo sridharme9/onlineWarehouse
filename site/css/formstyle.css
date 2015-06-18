@@ -1,0 +1,87 @@
+/*
+Author: Sridhar Somasani
+CLID:   SXS3096
+*/
+
+body{
+	background: #3F3F3F; 
+	color: #3C3C3C;
+}
+header{
+	background-color: #B60000;
+	height: 100px;
+	width: 100%;
+	color:  white;
+	font-size: 50px;
+	text-align: center;
+	line-height: 80px;
+	margin: -9px;
+  	padding-left: 16px;
+}
+.form{
+	background-color: #DBDBDB; 
+	border-radius: 6px;
+	box-shadow: 0px 3px 5px #000;
+	border: 1px solid #000;
+	padding: 10px 20px;
+	margin: 0 auto;
+	margin: 2% 20%;
+}
+.form legend{
+	font-size: 20pt;
+	background: #FFF;
+	border-radius: 6px;
+	padding: 12px;
+	border: 1px solid gray;
+}
+.form div{
+	padding: 5px;
+	padding-left: 20px;
+	margin: 3px;
+	font-size: 15pt;
+	border-radius: 6px;
+}
+.form div input{
+	padding: 5px;
+	border-radius: 6px;
+	border: 1px solid gray;
+}
+.form div label{
+	display: block;
+	float: left;
+	text-align: left;
+	width: 200px;
+}
+.form div select{
+	border-radius: 6px;
+	padding: 5px;
+}
+#btnSubmit{
+  background-color:#ed8223;
+  font-size:18px;
+  border-radius:20px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 5px 15px;
+  border: 0;
+}
+#btnSubmit:hover{
+  background-color:#D76E10;
+  cursor: pointer;
+}
+.textMargin{
+	margin-top: 5px;
+}
+footer{
+	color: white;
+	text-align: center;
+	font-size: 16px;
+}
+label.error {
+	color: #B60000;
+	width: auto;
+	display: inline;
+	font-size: 18px;
+	width: 100% !important;
+}	

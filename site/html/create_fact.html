@@ -1,0 +1,56 @@
+<!-- 
+Author: Sridhar Somasani
+CLID:   SXS3096
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Create Fact Table</title>
+		<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src= "../js/load_marts.js"></script>
+		<script type="text/javascript" src= "../js/create_fact.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/formstyle.css"> 
+	</head>
+<body>
+	<header>University of Louisiana at Lafayette</header>
+	<section>
+		<div class="form">
+			<div>
+				<label>Select Datamart</label>
+				<select name="selectMart" id="selectMart">
+					<option value="">Select Mart</option>
+				</select>
+				<a href="./create_mart.html" style="margin-left: 40px">Create Mart</a>
+				<a href="./create_dim.html" style="margin-left: 40px">Create Dimensions</a>
+			</div>
+		</div>
+
+		<form name="formdata"  id="regForm" enctype="text/plain">
+			<fieldset class="form">
+			<div>
+				<label>Fact Table name </label>
+				<input type="text" placeholder="Enter Name" name="factName" id="factName" autofocus>
+			</div>
+			<div>
+				<label>Number of Measures </label>
+				<input type="text" name="numMeasures" id="numMeasures" placeholder = "00" >
+			</div>
+			<div id="addMeasures">
+				
+			</div>
+			<div>
+				<input type="button" value="Submit" id="btnSubmit">
+			</div>
+			</fieldset>
+		</form>
+	</section>	
+	<footer>
+		University of Louisiana at Lafayette<br>
+		104 E. University Circle<br>
+		Lafayette, LA 70503<br>
+		(337) 482-1000<br>
+		webmaster@louisiana.edu
+	</footer>
+</body>
+</html>
